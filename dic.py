@@ -3,7 +3,7 @@ word = input("enter word:")
 
 lookup = "diction.py " + word + ' -d'
 exs = input("see all examples? press y. top example? press t:")
-if exs == 'a':
+if exs == 'y':
 	lookup = lookup + ' -e'
 if exs == 't':
 	lookup = lookup + ' -te'

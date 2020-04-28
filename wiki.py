@@ -14,6 +14,7 @@ with open(filename, 'w', encoding='utf-8') as f:
 	yn = input('include full page? y/n')
 	if yn == 'y':
 		content = wpage.content
+		print(content)
 		f.write(sums + '\n' + content)
 	f.write(sums)
 	
