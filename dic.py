@@ -13,13 +13,10 @@ if rels == 'y':
 etys = input("see etymologies?(y/n")
 if etys == 'y':
 	lookup = lookup + ' -et'
-try:
-	freqs = input("see word frequency over time? Will open browser:")
+freqs = input("see word frequency over time? Will open browser:")
 	if freqs == 'y':
-		interval = input("Enter start year [SPACE] end year.")
-		lookup = lookup + ' -f' + interval
-except:
-	continue
+interval = input("Enter start year [SPACE] end year.")
+	lookup = lookup + ' -f' + interval
 results = lookup + " >" + " DIC/%s.txt" % word
 os.system(results)
 filename = "DIC/%s.txt" % word
