@@ -26,19 +26,22 @@ Once you get your API code, open 'l.py' in any text editor and enter your key in
 ====installation=====
 in the shell of your choosing:
 
-  git clone https://github.com/jordiaphane/lyric_wiki_dict_shell.git
+    git clone https://github.com/jordiaphane/lyric_wiki_dict_shell.git
 
-  cd lyrics_wiki_dict_shell
+    cd lyrics_wiki_dict_shell
 
-  pip install -r requirements.txt
+    pip install -r requirements.txt
 
-  source[for mac] sh[for win/lin] env.sh
-  this should open a long congifuration file, but where you enter the API key for the dictionary is the second line. WITH NO QUOTATIONS   ENTER YOUR WORDNIK KEY, mentioned in line 22 of this README. 
-  There will be a screenshot in 'examples' folder showing where to add the key
+    source[for mac] sh[for win/lin] env.sh
+    
+    this should open a long congifuration file, but where you enter the API key for the dictionary is the second line. 
+    WITH NO QUOTATIONS, enter the wordnik key, with no spaces after the '='
+    mentioned in line 22 of this README is where to acquire this key. 
+    There will be a screenshot in 'examples' folder showing where to add the key
 
-  CLOSE OUT OF THE CONFIGURATION FILE, SAVE.
+    CLOSE OUT OF THE CONFIGURATION FILE, SAVE.
 
-  HIT ENTER IN SHELL
+    HIT ENTER IN SHELL
 
 
 from here, you should be done!
