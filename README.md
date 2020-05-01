@@ -46,6 +46,13 @@ in the shell of your choosing:
 
 from here, you should be done!
 
+====USAGE====
+
+      l/wiki/dic[enter]
+      follow instructions
+      hit lowercase 'y' for yes, any other key for no(unless otherwise specified)
+      
+
 all lyrics, wiki entries, and dict entries are saved as text files named after their search terms. very small text files, so no need to worry about size.
 
 I've been using this tool for so long thought I'd share!
