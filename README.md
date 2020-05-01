@@ -1,20 +1,33 @@
 Simple little dictionary, wikipedia, and wordnik lookup straight from cmd line
 
-Using the commands 'dic' for dictionary, 'l' for lyrics, and 'wiki' for wikipedia, this tool gives you easy, saveable, extensive access to frameworks available through their APIs:
+Using the commands 'dic' for dictionary, 'l' for lyrics, and 'wiki' for wikipedia, this tool gives you easy, storable txt files of lyrics, defnitions(and much more syntax and semantics), and wikipedia entries.
 
-for the dictionary:
-sign up for https://developer.wordnik.com/ and request an API
+Once you have everything set up, you can move the python files to a more convenient directory and use them from there, or add them to your PATH.
 
-for the lyrics:
+YOU WILL NEED ONE API, from genius.com, for the lyrics.
+
+Go to the site,
 http://genius.com/api-clients
 
-you WILL need these API keys, and the setup guides you through entering them into the code. For Lyrics, simply open 'l.py' in any text editor and enter your key in between the quotes in line 8.
+and just follow the instructions. you don't need a valid reason to recieve an API code. You can say whatever you want and you will still recieve one.
+
+Once you get your API code, 'l.py' in any text editor and enter your key in between the quotes in line 8, where it says "YOURKEYHERE".
 
 ====installation=====
+in the shell of your choosing:
+
+git clone https://github.com/jordiaphane/lyric_wiki_dict_shell.git
+
+cd lyrics_wiki_dict_shell
 
 pip install -r requirements.txt
+
 source[for mac] sh[for win/lin] env.sh
 this should open a long congifuration file, but where you enter the API key for the dictionary is the second line. WITH NO QUOTATIONS ENTER YOUR KEY
+
+CLOSE OUT OF THE CONFIGURATION FILE, SAVE.
+
+HIT ENTER IN SHELL
 
 
 from here, you should be done!
