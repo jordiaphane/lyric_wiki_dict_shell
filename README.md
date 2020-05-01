@@ -9,7 +9,7 @@ YOU WILL NEED ONE API, from genius.com, for the lyrics.
 Go to the site,
 http://genius.com/api-clients
 
-and just follow the instructions. you don't need a valid reason to recieve an API code. You can say whatever you want and you will still recieve one.
+and just follow the instructions. you don't need a valid reason to receive an API code. You can say whatever you want and you will still receive one.
 
 Once you get your API code, 'l.py' in any text editor and enter your key in between the quotes in line 8, where it says "YOURKEYHERE".
 
