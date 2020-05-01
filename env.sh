@@ -1,3 +1,6 @@
+mkdir DIC
+mkdir L
+mkdir WIKI
 set lookupvar = %cd%
 set %lookupvar %/wiki.py=wiki
 set %lookupvar %/l.py=l
