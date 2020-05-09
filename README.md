@@ -4,6 +4,18 @@ Using the commands 'dic' for dictionary, 'l' for lyrics, and 'wiki' for wikipedi
 
 Once you have everything set up, you can move the python files to a more convenient directory and use them from there, or add them to your PATH.
 
+1) Lyrics
+
+Searching artist and song will print lyrics to prompt, if found. If not, returns a list of possible sugggestions. Usually makes up for typos. After printed to command prompt and saved as a plain text document in the 'L' folder, another prompt will ask if you would like to pull up results for the song on youtube music, opening your browser with the song already queried.
+
+2) Wikipedia
+
+Searching with wiki is less forigiving with typos, but makes decent assumptions about what it is you're looking for. Prints the summary to the shell, then asks if you'd like to see the full wikipedia entry. If yes, that is saved into the 'WIKI' folder . 
+
+3) Dictionary(via Wordnik)
+
+Wordnik is my favorite dictionary on the internet becuase it aggregates official and unofficial dictionaries alike, uses its own APIs to draw examples from books, newspapers, and articles, and provides simple entymological information as well as word usage over time. The only problem with it is searching for lexemes. For example, searching for bears will give you no information other than "plural for bear". Stick to singular nouns and the simplest form of the word you are looking for in general.
+
 YOU WILL NEED TWO API KEYS:
 
   1) from genius.com, for the lyrics.
@@ -54,5 +66,7 @@ from here, you should be done!
       
 
 all lyrics, wiki entries, and dict entries are saved as text files named after their search terms. very small text files, so no need to worry about size.
+
+
 
 I've been using this tool for so long thought I'd share!
