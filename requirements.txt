@@ -2,3 +2,4 @@ diction==1.0.3
 wikipedia==1.4.0
 lyricsgenius==1.8.2
 PyDictionary==1.5.2
+youtube-dl==2020.6.16.1
